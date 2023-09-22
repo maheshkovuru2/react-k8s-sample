@@ -26,7 +26,7 @@ metadata:
   name: react-k8s-sample
   namespace: default
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: react-k8s-sample
   ports:
