@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react
-        image: ega4432/react-k8s-sample
+        image: maheshkovuru/react-application
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
